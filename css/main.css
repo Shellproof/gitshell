@@ -1,0 +1,74 @@
+.header {
+  background: url(/gitshell/img/[head/shutterstock_1220067856.png);
+  width: 1920px;
+  height: 880px;
+}
+.welcome {
+  z-index: 5;
+  width: 96.11px;
+  height: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.weturnidea {
+  z-index: 5;
+  width: 520.5px;
+  height: 180px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.ourpriorit {
+  z-index: 5;
+  width: 580px;
+  height: 60px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.rectangle {
+  z-index: 6;
+  width: 40px;
+  height: 4px;
+  background: #ee0d37;
+}
+.rectangle {
+  z-index: 6;
+  width: 40px;
+  height: 20px;
+}
+.combinedSh {
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    background: #ee0d37;
+  }
+  .logistics {
+    z-index: 5;
+    width: 147.42px;
+    height: 20px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .shape {
+    z-index: 6;
+    width: 18px;
+    height: 12px;
+    background: #ffffff;
+  }
+ 
