@@ -85,7 +85,7 @@
     height: 4px;
     background: #ee0d37;
   }
-  .contekst-gr_1 {
+  .contekst-line_1 {
     opacity: 0.5;
     z-index: 5;
     width: 580px;
@@ -97,7 +97,7 @@
     line-height: 30px;
     text-align: right;
   }
-  .number-gr_1 {
+  .number-line_1 {
     z-index: 5;
     width: 59.79px;
     height: 20px;
@@ -110,17 +110,17 @@
     text-transform: uppercase;
     letter-spacing: 4px;
   }
-  .img-gr_1 {
+  .img-line_1 {
     z-index: 5;
     width: 659px;
     height: 472px;
   }
-  .text-gr_1 {
+  .text-line_1 {
     z-index: 4;
     width: 580px;
     height: 380px;
   }
-  .title-gr_1 {
+  .title-line_1 {
     z-index: 5;
     width: 580px;
     height: 120px;
@@ -132,7 +132,7 @@
     text-align: right;
     text-transform: uppercase;
   }
-  .img-gr_1 {
+  .img-line_1 {
     z-index: 4;
     width: 380px;
     height: 380px;
