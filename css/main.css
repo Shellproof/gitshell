@@ -42,110 +42,71 @@
   height: 4px;
   background: #ee0d37;
 }
-.rectangle {
-  z-index: 6;
-  width: 40px;
+
+.logistics {
+  z-index: 5;
+  width: 147.42px;
   height: 20px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
-.combinedSh {
-    z-index: 5;
-    width: 40px;
-    height: 40px;
-    background: #ee0d37;
-  }
-  .logistics {
-    z-index: 5;
-    width: 147.42px;
-    height: 20px;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  .shape {
-    z-index: 6;
-    width: 18px;
-    height: 12px;
-    background: #ffffff;
-  }
-  
 
+/* MAIN
+*/
+.line {
+  width: 580px;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 
-
-
-
-
-
-  .rectangle-gr_1 {
-    z-index: 6;
-    width: 40px;
-    height: 4px;
-    background: #ee0d37;
-  }
-  .contekst-line_1 {
-    opacity: 0.5;
-    z-index: 5;
-    width: 580px;
-    height: 120px;
-    color: #191919;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: right;
-  }
-  .number-line_1 {
-    z-index: 5;
-    width: 59.79px;
-    height: 20px;
-    color: #191919;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 20px;
-    text-align: right;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  .img-line_1 {
-    z-index: 5;
-    width: 659px;
-    height: 472px;
-  }
-  .text-line_1 {
-    z-index: 4;
-    width: 580px;
-    height: 380px;
-  }
-  .title-line_1 {
-    z-index: 5;
-    width: 580px;
-    height: 120px;
-    color: #191919;
-    font-family: Montserrat;
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 60px;
-    text-align: right;
-    text-transform: uppercase;
-  }
-  .img-line_1 {
-    z-index: 4;
-    width: 380px;
-    height: 380px;
-  }
-  
-  #mask {
-    z-index: 5;
-    width: 380px;
-    height: 380px;
-  }
-  
-  #shuttersto {
-    z-index: 5;
-    width: 659px;
-    height: 472px;
-  }
+.img-line {
+  width: 659px;
+  height: 472px;
+  margin-left: auto;
+}
+.title-line {
+  width: 580px;
+  height: 120px;
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: right;
+  text-transform: uppercase;
+  flex: 1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+  margin: 5px;
+  box-sizing: border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+  min-width: 170px; /* мин. ширина блока, чтобы переносились на другой ряд */
+}
+.contekst-line {
+  opacity: 0.5;
+  z-index: 5;
+  width: 580px;
+  height: 120px;
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: right;
+}
+.number-line {
+  width: 59.79px;
+  height: 20px;
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
